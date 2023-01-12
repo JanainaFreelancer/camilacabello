@@ -1,0 +1,48 @@
+.cards {
+    margin-top: 6.4rem;
+    .card-item {
+        width: 100%;
+        max-width: 41.2rem;
+        background-color: $gray;
+        border-radius: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2.4rem;
+        .btn-primary {
+            background-color: $orange;
+            padding: 1rem 8.8rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 2.1rem;
+            color: $white;
+            border-radius: 0.4rem;
+            transition: all .3s;
+            margin-top: 1.6rem;
+            cursor: pointer;
+            &:hover {
+                background-color: $hover;
+            }
+        }
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 2.1rem;
+            color: $white;
+            margin-top: 2.4rem;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 0.8rem;
+            li:not(:last-child) {
+                margin-right: 2rem;
+            }
+        }
+    }
+}

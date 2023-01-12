@@ -1,0 +1,38 @@
+<section class="instagram" id="instagram">
+        <div class="container">
+            <h2>Follow on Instagram</h2>
+            <a href="https://www.instagram.com/camila_cabello/" target="_blank">@camila_cabello</a>
+        </div>
+        <!--container-->
+        <div class="bg-name">
+            <img src="img/camila-bg.svg" class="name-img" alt="">
+
+            <div class="slide-wrap">
+                <div class="slide-main" id="js-slider">
+                    <div class="item-slide">
+                        <img src="img/insta-1.png" alt="">
+                    </div>
+                    <div class="item-slide">
+                        <img src="img/insta-2.png" alt="">
+                    </div>
+                    <div class="item-slide">
+                        <img src="img/insta-3.png" alt="">
+                    </div>
+                    <div class="item-slide">
+                        <img src="img/insta-4.png" alt="">
+                    </div>
+                    <div class="item-slide">
+                        <img src="img/insta-5.png" alt="">
+                    </div>
+                    <div class="item-slide">
+                        <img src="img/insta-6.png" alt="">
+                    </div>
+                </div>
+                <div class="btn-control">
+                    <img src="img/icon-arrow-left.svg" alt="ícone de seta para esquerda" onclick="prev()">
+                    <img src="img/icon-arrow-right.svg" alt="ícone de seta para direita" onclick="next()">
+                </div>
+            </div>
+            <!--slide-wrap-->
+        </div>
+    </section>

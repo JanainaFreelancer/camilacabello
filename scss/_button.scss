@@ -1,0 +1,13 @@
+.btn-primary {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 21px;
+    color: $white;
+    background: $orange;
+    border-radius: 0.4rem;
+    transition: all .3s;
+    &:hover {
+        background-color: $hover;
+    }
+}

@@ -1,0 +1,28 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+    @include responsive(1300px) {
+        font-size: 58%;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}

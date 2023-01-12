@@ -1,0 +1,17 @@
+@keyframes burgerOpen {
+    from {
+        transform: translateY(-1000px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes burgerClose {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-100px);
+    }
+}
